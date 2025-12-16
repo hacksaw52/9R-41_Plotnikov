@@ -82,7 +82,7 @@ def main():
     game_over = False
 
     print("\n" + "=" * 35)
-    print("      Игра: Крестики-Нолики")
+    print(" " * 6 + "Игра: Крестики-Нолики")
     print("=" * 35)
     print("Правила:")
     print("1. Игроки по очереди ставят X и O")
@@ -119,6 +119,7 @@ def main():
                 current_player = 'O'
             else:
                 current_player = 'X'
+
 
 
 main()
